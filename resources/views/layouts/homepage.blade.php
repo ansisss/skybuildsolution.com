@@ -14,7 +14,7 @@
               content="noindex, nofollow">
     @endif
     <link rel="shortcut icon"
-          href="/favicon.png">
+          href="/favicon.png?v=0.1">
     <link rel="preconnect"
           href="https://fonts.googleapis.com/css2"
           crossorigin>
