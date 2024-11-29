@@ -38,14 +38,8 @@
     </div>
     <script asnyc>
         document.addEventListener("DOMContentLoaded", function() {
-            const cookieNotification = document.querySelector("#cookie_notification");
             const cookieNotificationButton = document.querySelector("#cookie_notification_button");
             const cookie = document.cookie.indexOf("cookie_notification=");
-
-            if (cookie < 0) {
-                cookieNotification.classList.remove("hidden");
-                cookieNotificationButton.focus();
-            }
 
             function closeCookieNotification() {
                 cookieNotification.remove();
