@@ -38,7 +38,7 @@
     </div>
     <script asnyc>
         document.addEventListener("DOMContentLoaded", function() {
-            const cookieNotificationButton = document.querySelector("#cookie_notification_button");
+            const cookieNotificationButton = document.querySelector("#cookies_notification_button");
             const cookie = document.cookie.indexOf("cookie_notification=");
 
             function closeCookieNotification() {
